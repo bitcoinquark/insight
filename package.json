@@ -1,9 +1,13 @@
 {
-  "name": "insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
-  "version": "0.4.0",
-  "repository": "git://github.com/bitpay/insight-ui.git",
+  "name": "btq-insight-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the BitcoinQuark network and build your own services with it.",
+  "version": "0.4.1",
+  "repository": "git://github.com/bitcoinquark/insight-ui.git",
   "contributors": [
+    {
+      "name": "Lorenzo Bianco",
+      "email": "lorenzo@bitcoinquark.org"
+	},
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
@@ -26,11 +30,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/bitcoinquark/insight-ui/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-ui",
+  "homepage": "https://github.com/bitcoinquark/insight-ui",
   "license": "MIT",
   "keywords": [
+    "quark",
     "insight",
     "blockchain",
     "blockexplorer",
@@ -38,7 +43,7 @@
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node",
+  "bitcoreNode": "btq-bitcore-node",
   "dependencies": {
   },
   "devDependencies": {
